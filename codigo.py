@@ -8,3 +8,7 @@ print(x)
 import matplotlib.pyplot as plt
 
 plt.plot(x,y)
+
+z = np.cos(x)**2 + y**2
+
+print(np.mean(z))
